@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "dotenv", "~> 2.1"
   s.add_dependency "colorize", "~> 0.8"
-  s.add_dependency "activesupport", "~> 5.0"
+  s.add_dependency "activesupport", ">= 5", "< 7"
   s.add_dependency "commander", "~> 4.4"
   s.add_dependency "subprocess", "~> 1.3"
   s.add_dependency "pathspec", "~> 0.2"
